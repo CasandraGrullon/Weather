@@ -62,6 +62,7 @@
 		55F363712727212900551FA9 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				55F3638F2727291800551FA9 /* Secrets */,
 				55F3638B2727238900551FA9 /* Models */,
 				55F3638A2727238000551FA9 /* Networking */,
 				55F363722727212900551FA9 /* AppDelegate.swift */,
@@ -98,6 +99,13 @@
 				55F3638D272723B500551FA9 /* ZipCodeHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		55F3638F2727291800551FA9 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
