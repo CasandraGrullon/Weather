@@ -16,6 +16,7 @@
 		55F363872727219600551FA9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F363862727219600551FA9 /* APIClient.swift */; };
 		55F36389272721AC00551FA9 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F36388272721AC00551FA9 /* Weather.swift */; };
 		55F3638E272723B500551FA9 /* ZipCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3638D272723B500551FA9 /* ZipCodeHelper.swift */; };
+		55F363912727294200551FA9 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F363902727294200551FA9 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		55F363862727219600551FA9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		55F36388272721AC00551FA9 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		55F3638D272723B500551FA9 /* ZipCodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeHelper.swift; sourceTree = "<group>"; };
+		55F363902727294200551FA9 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		55F3638F2727291800551FA9 /* Secrets */ = {
 			isa = PBXGroup;
 			children = (
+				55F363902727294200551FA9 /* Secrets.swift */,
 			);
 			path = Secrets;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				55F3638E272723B500551FA9 /* ZipCodeHelper.swift in Sources */,
 				55F363772727212900551FA9 /* ViewController.swift in Sources */,
+				55F363912727294200551FA9 /* Secrets.swift in Sources */,
 				55F363732727212900551FA9 /* AppDelegate.swift in Sources */,
 				55F363752727212900551FA9 /* SceneDelegate.swift in Sources */,
 				55F363872727219600551FA9 /* APIClient.swift in Sources */,

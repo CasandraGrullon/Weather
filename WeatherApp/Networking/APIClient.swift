@@ -9,7 +9,7 @@ import Foundation
 
 struct APIClient {
     static func getWeather(lat: Double, long: Double, completion: @escaping (Result<Weather, Error>) -> ()) {
-        let endpoint = "https://api.darksky.net/forecast//\(lat),\(long)"
+        let endpoint = "https://api.darksky.net/forecast/\(Secrets.darkSkyKey)/\(lat),\(long)"
         
         guard let url = URL(string: endpoint) else { return }
         
