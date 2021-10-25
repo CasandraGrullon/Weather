@@ -13,6 +13,9 @@
 		55F3637A2727212900551FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F363782727212900551FA9 /* Main.storyboard */; };
 		55F3637C2727212E00551FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F3637B2727212E00551FA9 /* Assets.xcassets */; };
 		55F3637F2727212E00551FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F3637D2727212E00551FA9 /* LaunchScreen.storyboard */; };
+		55F363872727219600551FA9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F363862727219600551FA9 /* APIClient.swift */; };
+		55F36389272721AC00551FA9 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F36388272721AC00551FA9 /* Weather.swift */; };
+		55F3638E272723B500551FA9 /* ZipCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3638D272723B500551FA9 /* ZipCodeHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		55F3637B2727212E00551FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F3637E2727212E00551FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F363802727212E00551FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F363862727219600551FA9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		55F36388272721AC00551FA9 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		55F3638D272723B500551FA9 /* ZipCodeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		55F363712727212900551FA9 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				55F3638B2727238900551FA9 /* Models */,
+				55F3638A2727238000551FA9 /* Networking */,
 				55F363722727212900551FA9 /* AppDelegate.swift */,
 				55F363742727212900551FA9 /* SceneDelegate.swift */,
 				55F363762727212900551FA9 /* ViewController.swift */,
@@ -65,6 +73,31 @@
 				55F363802727212E00551FA9 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		55F3638A2727238000551FA9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				55F3638C272723A600551FA9 /* Helpers */,
+				55F363862727219600551FA9 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		55F3638B2727238900551FA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55F36388272721AC00551FA9 /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55F3638C272723A600551FA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				55F3638D272723B500551FA9 /* ZipCodeHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F3638E272723B500551FA9 /* ZipCodeHelper.swift in Sources */,
 				55F363772727212900551FA9 /* ViewController.swift in Sources */,
 				55F363732727212900551FA9 /* AppDelegate.swift in Sources */,
 				55F363752727212900551FA9 /* SceneDelegate.swift in Sources */,
+				55F363872727219600551FA9 /* APIClient.swift in Sources */,
+				55F36389272721AC00551FA9 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
